@@ -1,0 +1,18 @@
+.env
+*.db
+venv/
+__pycache__/
+*.pyc
+node_modules/
+uploads/
+.pytest_cache/
+
+frontend/dist/
+*.log
+
+# local data and model artifacts
+datasets/*.csv
+datasets/*.zip
+
+datasets/*
+!datasets/README.md

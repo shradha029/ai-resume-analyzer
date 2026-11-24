@@ -1,0 +1,835 @@
+{
+ "id": 1,
+ "resume_id": 1,
+ "job_id": 1,
+ "target_role": "Backend Developer",
+ "match_score": 62.4,
+ "skill_match_score": 47.4,
+ "skill_coverage_score": 22.7,
+ "component_scores": {
+  "skills": {
+   "score": 47.4,
+   "status": "scored",
+   "weight_configured": 0.4,
+   "weight_effective": 0.4,
+   "notes": [
+    "Weighted skill coverage with partial credit (see skill matches)."
+   ]
+  },
+  "experience": {
+   "score": 100.0,
+   "status": "scored",
+   "weight_configured": 0.2,
+   "weight_effective": 0.2,
+   "notes": [
+    "Entry-level role: no minimum experience required."
+   ]
+  },
+  "education": {
+   "score": 100.0,
+   "status": "scored",
+   "weight_configured": 0.15,
+   "weight_effective": 0.15,
+   "notes": [
+    "Requires bachelor level; resume shows bachelor level (B.Tech in Computer Science and Engineering).",
+    "Preferred field(s): Computer Science; match found."
+   ]
+  },
+  "projects": {
+   "score": 22.7,
+   "status": "scored",
+   "weight_configured": 0.15,
+   "weight_effective": 0.15,
+   "notes": [
+    "Score = share (by weight) of job skills that appear in at least one project."
+   ]
+  },
+  "certifications": {
+   "score": 50.0,
+   "status": "scored",
+   "weight_configured": 0.1,
+   "weight_effective": 0.1,
+   "notes": [
+    "1 of 2 certification(s) relevant to the job's skills (1 relevant = 50, 2 or more = 100)."
+   ]
+  }
+ },
+ "skill_matches": [
+  {
+   "skill": "Django",
+   "category": "framework",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "partial",
+   "credit": 0.35,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [
+    "related: Express.js, Flask"
+   ],
+   "explanation": "Django is not on the resume, but related skill(s) Express.js, Flask are. Related experience helps but is not the same technology."
+  },
+  {
+   "skill": "FastAPI",
+   "category": "framework",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "partial",
+   "credit": 0.35,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [
+    "related: Express.js, Flask"
+   ],
+   "explanation": "FastAPI is not on the resume, but related skill(s) Express.js, Flask are. Related experience helps but is not the same technology."
+  },
+  {
+   "skill": "JWT",
+   "category": "concept",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "missing",
+   "credit": 0.0,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [],
+   "explanation": "No evidence of JWT or a closely related skill was found in the resume."
+  },
+  {
+   "skill": "PostgreSQL",
+   "category": "database",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "partial",
+   "credit": 0.35,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [
+    "related: MySQL, SQL"
+   ],
+   "explanation": "PostgreSQL is not on the resume, but related skill(s) MySQL, SQL are. Related experience helps but is not the same technology."
+  },
+  {
+   "skill": "Python",
+   "category": "language",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "matched",
+   "credit": 1.0,
+   "custom": false,
+   "demonstrated": true,
+   "evidence": [
+    "projects",
+    "certifications"
+   ],
+   "explanation": "Python is used in: projects, certifications."
+  },
+  {
+   "skill": "REST API",
+   "category": "concept",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "matched",
+   "credit": 1.0,
+   "custom": false,
+   "demonstrated": true,
+   "evidence": [
+    "projects"
+   ],
+   "explanation": "REST API is used in: projects."
+  },
+  {
+   "skill": "SQL",
+   "category": "language",
+   "level": "mandatory",
+   "weight": 1.0,
+   "status": "partial",
+   "credit": 0.7,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [
+    "skills"
+   ],
+   "explanation": "SQL is listed in the Skills section but no project, experience or certification shows it being used. Add evidence of real use."
+  },
+  {
+   "skill": "AWS",
+   "category": "cloud",
+   "level": "preferred",
+   "weight": 0.6,
+   "status": "missing",
+   "credit": 0.0,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [],
+   "explanation": "No evidence of AWS or a closely related skill was found in the resume."
+  },
+  {
+   "skill": "CI/CD",
+   "category": "tool",
+   "level": "preferred",
+   "weight": 0.6,
+   "status": "missing",
+   "credit": 0.0,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [],
+   "explanation": "No evidence of CI/CD or a closely related skill was found in the resume."
+  },
+  {
+   "skill": "Docker",
+   "category": "tool",
+   "level": "preferred",
+   "weight": 0.6,
+   "status": "partial",
+   "credit": 0.7,
+   "custom": false,
+   "demonstrated": false,
+   "evidence": [
+    "skills"
+   ],
+   "explanation": "Docker is listed in the Skills section but no project, experience or certification shows it being used. Add evidence of real use."
+  }
+ ],
+ "gaps": [
+  {
+   "gap_type": "missing_skill",
+   "severity": "high",
+   "title": "Missing mandatory skill: JWT",
+   "description": "No evidence of JWT or a closely related skill was found in the resume."
+  },
+  {
+   "gap_type": "partial_skill",
+   "severity": "medium",
+   "title": "Partially evidenced: Django",
+   "description": "Django is not on the resume, but related skill(s) Express.js, Flask are. Related experience helps but is not the same technology."
+  },
+  {
+   "gap_type": "partial_skill",
+   "severity": "medium",
+   "title": "Partially evidenced: FastAPI",
+   "description": "FastAPI is not on the resume, but related skill(s) Express.js, Flask are. Related experience helps but is not the same technology."
+  },
+  {
+   "gap_type": "partial_skill",
+   "severity": "medium",
+   "title": "Partially evidenced: PostgreSQL",
+   "description": "PostgreSQL is not on the resume, but related skill(s) MySQL, SQL are. Related experience helps but is not the same technology."
+  },
+  {
+   "gap_type": "weak_evidence",
+   "severity": "medium",
+   "title": "Partially evidenced: SQL",
+   "description": "SQL is listed in the Skills section but no project, experience or certification shows it being used. Add evidence of real use."
+  },
+  {
+   "gap_type": "missing_skill",
+   "severity": "medium",
+   "title": "Missing preferred skill: AWS",
+   "description": "No evidence of AWS or a closely related skill was found in the resume."
+  },
+  {
+   "gap_type": "missing_skill",
+   "severity": "medium",
+   "title": "Missing preferred skill: CI/CD",
+   "description": "No evidence of CI/CD or a closely related skill was found in the resume."
+  },
+  {
+   "gap_type": "project_relevance",
+   "severity": "medium",
+   "title": "Weak project relevance",
+   "description": "Only 23% of the job's weighted skills are demonstrated in your projects."
+  },
+  {
+   "gap_type": "weak_evidence",
+   "severity": "low",
+   "title": "Partially evidenced: Docker",
+   "description": "Docker is listed in the Skills section but no project, experience or certification shows it being used. Add evidence of real use."
+  },
+  {
+   "gap_type": "experience",
+   "severity": "low",
+   "title": "No internship documented (preferred)",
+   "description": "An internship is a plus for this role; none is listed."
+  },
+  {
+   "gap_type": "certification",
+   "severity": "low",
+   "title": "Few relevant certifications",
+   "description": "1 relevant certification(s) found."
+  }
+ ],
+ "additional_skills": [
+  "C++",
+  "Data Structures and Algorithms",
+  "Git",
+  "GitHub",
+  "Heroku",
+  "Java",
+  "JavaScript",
+  "Machine Learning",
+  "MongoDB",
+  "Node.js",
+  "NumPy",
+  "OpenCV",
+  "Pandas",
+  "Postman",
+  "React",
+  "Scikit-learn"
+ ],
+ "tfidf_similarity": 0.032,
+ "semantic_similarity": null,
+ "method": "rules+tfidf",
+ "details": {
+  "experience": {
+   "employment_months": 0,
+   "internship_months": 0,
+   "equivalent_years": 0.0,
+   "required_min_years": 0,
+   "entries": 0
+  },
+  "education": {
+   "resume_level": "bachelor",
+   "pursuing": false
+  },
+  "projects": [
+   {
+    "title": "Smart Attendance System",
+    "matching_skills": [
+     "Python",
+     "REST API"
+    ],
+    "skill_share": 0.227,
+    "tfidf_similarity": 0.032,
+    "semantic_similarity": null,
+    "relevance": "medium"
+   },
+   {
+    "title": "Movie Recommender",
+    "matching_skills": [],
+    "skill_share": 0.0,
+    "tfidf_similarity": 0.0,
+    "semantic_similarity": null,
+    "relevance": "low"
+   }
+  ],
+  "relevant_certifications": [
+   "Python for Everybody"
+  ],
+  "soft_skills_requested": [
+   "Communication",
+   "Problem Solving"
+  ],
+  "unknown_components": [],
+  "warnings": [],
+  "quality": {
+   "score": 96.0,
+   "components": {
+    "section_completeness": {
+     "label": "Section completeness",
+     "score": 20,
+     "max": 20,
+     "percent": 100.0,
+     "rules": [
+      {
+       "id": "contact_name",
+       "rule": "Name present",
+       "points": 2,
+       "max": 2,
+       "detail": "Name detected",
+       "advice": null
+      },
+      {
+       "id": "contact_email",
+       "rule": "Email present",
+       "points": 2,
+       "max": 2,
+       "detail": "Email detected",
+       "advice": null
+      },
+      {
+       "id": "contact_phone",
+       "rule": "Phone present",
+       "points": 1,
+       "max": 1,
+       "detail": "Phone detected",
+       "advice": null
+      },
+      {
+       "id": "contact_links",
+       "rule": "LinkedIn or GitHub link",
+       "points": 1,
+       "max": 1,
+       "detail": "Profile link found",
+       "advice": null
+      },
+      {
+       "id": "sec_education",
+       "rule": "Education section",
+       "points": 4,
+       "max": 4,
+       "detail": "2 education entr(ies)",
+       "advice": null
+      },
+      {
+       "id": "sec_skills",
+       "rule": "Skills section",
+       "points": 4,
+       "max": 4,
+       "detail": "Skills section found",
+       "advice": null
+      },
+      {
+       "id": "sec_work",
+       "rule": "Projects or experience",
+       "points": 4,
+       "max": 4,
+       "detail": "2 project(s), 0 experience entr(ies)",
+       "advice": null
+      },
+      {
+       "id": "sec_extra",
+       "rule": "Certifications or achievements",
+       "points": 2,
+       "max": 2,
+       "detail": "Found",
+       "advice": null
+      }
+     ]
+    },
+    "skills_presentation": {
+     "label": "Skills presentation",
+     "score": 19.1,
+     "max": 20,
+     "percent": 95.5,
+     "rules": [
+      {
+       "id": "skills_count",
+       "rule": "Number of recognised skills (8+ = full)",
+       "points": 8,
+       "max": 8,
+       "detail": "23 skills recognised",
+       "advice": null
+      },
+      {
+       "id": "skills_variety",
+       "rule": "Variety of skill categories (4+ = full)",
+       "points": 5,
+       "max": 5,
+       "detail": "8 categories",
+       "advice": null
+      },
+      {
+       "id": "skills_section",
+       "rule": "Dedicated Skills section",
+       "points": 4,
+       "max": 4,
+       "detail": "Present",
+       "advice": null
+      },
+      {
+       "id": "skills_evidence",
+       "rule": "Skills shown in projects/experience (50%+ = full)",
+       "points": 2.09,
+       "max": 3,
+       "detail": "8 of 23 skills appear in a project, experience or certification (35%)",
+       "advice": "Mention your key skills inside project/experience bullets, not only in the skills list."
+      }
+     ]
+    },
+    "descriptions": {
+     "label": "Experience and project descriptions",
+     "score": 23.4,
+     "max": 25,
+     "percent": 93.6,
+     "rules": [
+      {
+       "id": "desc_quality",
+       "rule": "Description quality (2+ bullets, 8-35 words, action verb, technologies named)",
+       "points": 23.44,
+       "max": 25,
+       "detail": "Average item quality 94% over 2 item(s)",
+       "advice": "For each project/internship write 2-3 bullets that start with an action verb, name the technologies and explain what you built and why."
+      }
+     ]
+    },
+    "achievements": {
+     "label": "Quantifiable achievements",
+     "score": 15,
+     "max": 15,
+     "percent": 100.0,
+     "rules": [
+      {
+       "id": "metrics",
+       "rule": "Bullets with measurable results (30%+ = full)",
+       "points": 15,
+       "max": 15,
+       "detail": "2 of 6 bullets contain numbers/metrics (33%)",
+       "advice": null
+      }
+     ]
+    },
+    "formatting": {
+     "label": "Formatting and readability",
+     "score": 8.5,
+     "max": 10,
+     "percent": 85.0,
+     "rules": [
+      {
+       "id": "fmt_pages",
+       "rule": "Length: 1-2 pages",
+       "points": 3,
+       "max": 3,
+       "detail": "1 page(s)",
+       "advice": null
+      },
+      {
+       "id": "fmt_words",
+       "rule": "Word count 200-900",
+       "points": 1.5,
+       "max": 3,
+       "detail": "153 words",
+       "advice": "Aim for roughly 300-700 words: enough detail, but concise."
+      },
+      {
+       "id": "fmt_headings",
+       "rule": "Clear section headings (4+ recognised)",
+       "points": 2,
+       "max": 2,
+       "detail": "5 standard headings recognised",
+       "advice": null
+      },
+      {
+       "id": "fmt_consistency",
+       "rule": "No duplicate bullets",
+       "points": 1,
+       "max": 1,
+       "detail": "No duplicates",
+       "advice": null
+      },
+      {
+       "id": "fmt_readability",
+       "rule": "Readable bullet length (avg 30 words or fewer)",
+       "points": 1,
+       "max": 1,
+       "detail": "Average bullet length 9 words",
+       "advice": null
+      }
+     ]
+    },
+    "education_certs": {
+     "label": "Education and certification presentation",
+     "score": 10,
+     "max": 10,
+     "percent": 100.0,
+     "rules": [
+      {
+       "id": "edu_degree",
+       "rule": "Degree stated",
+       "points": 2,
+       "max": 2,
+       "detail": "Present",
+       "advice": null
+      },
+      {
+       "id": "edu_institution",
+       "rule": "College/university stated",
+       "points": 2,
+       "max": 2,
+       "detail": "Present",
+       "advice": null
+      },
+      {
+       "id": "edu_graduation_year",
+       "rule": "Graduation year stated",
+       "points": 2,
+       "max": 2,
+       "detail": "Present",
+       "advice": null
+      },
+      {
+       "id": "edu_score",
+       "rule": "CGPA or percentage stated",
+       "points": 2,
+       "max": 2,
+       "detail": "Present",
+       "advice": null
+      },
+      {
+       "id": "cert_detail",
+       "rule": "Certifications list issuer/date",
+       "points": 2.0,
+       "max": 2,
+       "detail": "100% of certifications have issuer or date",
+       "advice": null
+      }
+     ]
+    }
+   },
+   "notes": [
+    "Rule-based presentation score; not a prediction of selection or hiring.",
+    "Grammar and spelling are not checked in this version."
+   ]
+  },
+  "profile_readiness": {
+   "score": 62.6,
+   "weights": {
+    "quality": 0.3,
+    "match": 0.45,
+    "coverage": 0.25
+   }
+  }
+ },
+ "resume_quality_score": 96.0,
+ "profile_readiness_score": 62.6,
+ "quality": {
+  "score": 96.0,
+  "components": {
+   "section_completeness": {
+    "label": "Section completeness",
+    "score": 20,
+    "max": 20,
+    "percent": 100.0,
+    "rules": [
+     {
+      "id": "contact_name",
+      "rule": "Name present",
+      "points": 2,
+      "max": 2,
+      "detail": "Name detected",
+      "advice": null
+     },
+     {
+      "id": "contact_email",
+      "rule": "Email present",
+      "points": 2,
+      "max": 2,
+      "detail": "Email detected",
+      "advice": null
+     },
+     {
+      "id": "contact_phone",
+      "rule": "Phone present",
+      "points": 1,
+      "max": 1,
+      "detail": "Phone detected",
+      "advice": null
+     },
+     {
+      "id": "contact_links",
+      "rule": "LinkedIn or GitHub link",
+      "points": 1,
+      "max": 1,
+      "detail": "Profile link found",
+      "advice": null
+     },
+     {
+      "id": "sec_education",
+      "rule": "Education section",
+      "points": 4,
+      "max": 4,
+      "detail": "2 education entr(ies)",
+      "advice": null
+     },
+     {
+      "id": "sec_skills",
+      "rule": "Skills section",
+      "points": 4,
+      "max": 4,
+      "detail": "Skills section found",
+      "advice": null
+     },
+     {
+      "id": "sec_work",
+      "rule": "Projects or experience",
+      "points": 4,
+      "max": 4,
+      "detail": "2 project(s), 0 experience entr(ies)",
+      "advice": null
+     },
+     {
+      "id": "sec_extra",
+      "rule": "Certifications or achievements",
+      "points": 2,
+      "max": 2,
+      "detail": "Found",
+      "advice": null
+     }
+    ]
+   },
+   "skills_presentation": {
+    "label": "Skills presentation",
+    "score": 19.1,
+    "max": 20,
+    "percent": 95.5,
+    "rules": [
+     {
+      "id": "skills_count",
+      "rule": "Number of recognised skills (8+ = full)",
+      "points": 8,
+      "max": 8,
+      "detail": "23 skills recognised",
+      "advice": null
+     },
+     {
+      "id": "skills_variety",
+      "rule": "Variety of skill categories (4+ = full)",
+      "points": 5,
+      "max": 5,
+      "detail": "8 categories",
+      "advice": null
+     },
+     {
+      "id": "skills_section",
+      "rule": "Dedicated Skills section",
+      "points": 4,
+      "max": 4,
+      "detail": "Present",
+      "advice": null
+     },
+     {
+      "id": "skills_evidence",
+      "rule": "Skills shown in projects/experience (50%+ = full)",
+      "points": 2.09,
+      "max": 3,
+      "detail": "8 of 23 skills appear in a project, experience or certification (35%)",
+      "advice": "Mention your key skills inside project/experience bullets, not only in the skills list."
+     }
+    ]
+   },
+   "descriptions": {
+    "label": "Experience and project descriptions",
+    "score": 23.4,
+    "max": 25,
+    "percent": 93.6,
+    "rules": [
+     {
+      "id": "desc_quality",
+      "rule": "Description quality (2+ bullets, 8-35 words, action verb, technologies named)",
+      "points": 23.44,
+      "max": 25,
+      "detail": "Average item quality 94% over 2 item(s)",
+      "advice": "For each project/internship write 2-3 bullets that start with an action verb, name the technologies and explain what you built and why."
+     }
+    ]
+   },
+   "achievements": {
+    "label": "Quantifiable achievements",
+    "score": 15,
+    "max": 15,
+    "percent": 100.0,
+    "rules": [
+     {
+      "id": "metrics",
+      "rule": "Bullets with measurable results (30%+ = full)",
+      "points": 15,
+      "max": 15,
+      "detail": "2 of 6 bullets contain numbers/metrics (33%)",
+      "advice": null
+     }
+    ]
+   },
+   "formatting": {
+    "label": "Formatting and readability",
+    "score": 8.5,
+    "max": 10,
+    "percent": 85.0,
+    "rules": [
+     {
+      "id": "fmt_pages",
+      "rule": "Length: 1-2 pages",
+      "points": 3,
+      "max": 3,
+      "detail": "1 page(s)",
+      "advice": null
+     },
+     {
+      "id": "fmt_words",
+      "rule": "Word count 200-900",
+      "points": 1.5,
+      "max": 3,
+      "detail": "153 words",
+      "advice": "Aim for roughly 300-700 words: enough detail, but concise."
+     },
+     {
+      "id": "fmt_headings",
+      "rule": "Clear section headings (4+ recognised)",
+      "points": 2,
+      "max": 2,
+      "detail": "5 standard headings recognised",
+      "advice": null
+     },
+     {
+      "id": "fmt_consistency",
+      "rule": "No duplicate bullets",
+      "points": 1,
+      "max": 1,
+      "detail": "No duplicates",
+      "advice": null
+     },
+     {
+      "id": "fmt_readability",
+      "rule": "Readable bullet length (avg 30 words or fewer)",
+      "points": 1,
+      "max": 1,
+      "detail": "Average bullet length 9 words",
+      "advice": null
+     }
+    ]
+   },
+   "education_certs": {
+    "label": "Education and certification presentation",
+    "score": 10,
+    "max": 10,
+    "percent": 100.0,
+    "rules": [
+     {
+      "id": "edu_degree",
+      "rule": "Degree stated",
+      "points": 2,
+      "max": 2,
+      "detail": "Present",
+      "advice": null
+     },
+     {
+      "id": "edu_institution",
+      "rule": "College/university stated",
+      "points": 2,
+      "max": 2,
+      "detail": "Present",
+      "advice": null
+     },
+     {
+      "id": "edu_graduation_year",
+      "rule": "Graduation year stated",
+      "points": 2,
+      "max": 2,
+      "detail": "Present",
+      "advice": null
+     },
+     {
+      "id": "edu_score",
+      "rule": "CGPA or percentage stated",
+      "points": 2,
+      "max": 2,
+      "detail": "Present",
+      "advice": null
+     },
+     {
+      "id": "cert_detail",
+      "rule": "Certifications list issuer/date",
+      "points": 2.0,
+      "max": 2,
+      "detail": "100% of certifications have issuer or date",
+      "advice": null
+     }
+    ]
+   }
+  },
+  "notes": [
+   "Rule-based presentation score; not a prediction of selection or hiring.",
+   "Grammar and spelling are not checked in this version."
+  ]
+ },
+ "created_at": "2026-11-22T15:37:53.710473"
+}

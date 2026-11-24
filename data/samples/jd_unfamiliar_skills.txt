@@ -1,0 +1,6 @@
+Platform Engineer
+Requirements:
+- Experience with Kafka, RabbitMQ and Celery for asynchronous processing
+- Strong Python knowledge
+- Experience with Machine Vision pipelines
+- Good problem solving skills and ownership of delivery

@@ -1,0 +1,259 @@
+{
+ "resume_id": 1,
+ "data": {
+  "personal": {
+   "full_name": "Aarav Sharma",
+   "email": "aarav.sharma@example.com",
+   "phone": "+91 98765 43210",
+   "linkedin": "linkedin.com/in/aarav-sharma-demo",
+   "github": "github.com/aaravsharma-demo",
+   "portfolio": "https://aarav-demo.dev"
+  },
+  "summary": null,
+  "education": [
+   {
+    "degree": "B.Tech in Computer Science and Engineering",
+    "institution": "Example Institute of Technology",
+    "graduation_year": 2025,
+    "cgpa": 8.1,
+    "cgpa_scale": 10.0,
+    "percentage": null,
+    "coursework": [
+     "Data Structures",
+     "DBMS",
+     "Operating Systems",
+     "Machine Learning"
+    ]
+   },
+   {
+    "degree": "Senior Secondary",
+    "institution": "Demo Public School",
+    "graduation_year": 2021,
+    "cgpa": null,
+    "cgpa_scale": null,
+    "percentage": 92.4,
+    "coursework": []
+   }
+  ],
+  "skills": [
+   {
+    "name": "Python",
+    "category": "language",
+    "found_in": [
+     "skills",
+     "projects",
+     "certifications"
+    ]
+   },
+   {
+    "name": "C++",
+    "category": "language",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Java",
+    "category": "language",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "JavaScript",
+    "category": "language",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "SQL",
+    "category": "language",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "React",
+    "category": "framework",
+    "found_in": [
+     "skills",
+     "projects"
+    ]
+   },
+   {
+    "name": "Node.js",
+    "category": "framework",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Express.js",
+    "category": "framework",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Flask",
+    "category": "framework",
+    "found_in": [
+     "skills",
+     "projects"
+    ]
+   },
+   {
+    "name": "NumPy",
+    "category": "library",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Pandas",
+    "category": "library",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Scikit-learn",
+    "category": "library",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "MySQL",
+    "category": "database",
+    "found_in": [
+     "skills",
+     "projects"
+    ]
+   },
+   {
+    "name": "MongoDB",
+    "category": "database",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Git",
+    "category": "tool",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "GitHub",
+    "category": "tool",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Docker",
+    "category": "tool",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "Postman",
+    "category": "tool",
+    "found_in": [
+     "skills"
+    ]
+   },
+   {
+    "name": "OpenCV",
+    "category": "library",
+    "found_in": [
+     "projects"
+    ]
+   },
+   {
+    "name": "Heroku",
+    "category": "cloud",
+    "found_in": [
+     "projects"
+    ]
+   },
+   {
+    "name": "REST API",
+    "category": "concept",
+    "found_in": [
+     "projects"
+    ]
+   },
+   {
+    "name": "Machine Learning",
+    "category": "ml",
+    "found_in": [
+     "certifications"
+    ]
+   },
+   {
+    "name": "Data Structures and Algorithms",
+    "category": "concept",
+    "found_in": [
+     "other"
+    ]
+   }
+  ],
+  "experience": [],
+  "projects": [
+   {
+    "title": "Smart Attendance System",
+    "description": "Built a face-recognition attendance app that processes 50 images per minute\nStored records in MySQL and exposed RESTful APIs for a React dashboard",
+    "technologies": [
+     "Python",
+     "React",
+     "Flask",
+     "OpenCV",
+     "MySQL",
+     "REST API"
+    ]
+   },
+   {
+    "title": "Movie Recommender",
+    "description": "Created a content-based recommender using TF-IDF and cosine similarity\nDeployed on Heroku",
+    "technologies": [
+     "Heroku"
+    ]
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Machine Learning Specialization",
+    "issuer": "Coursera",
+    "date": "2023"
+   },
+   {
+    "name": "Python for Everybody",
+    "issuer": "University of Michigan",
+    "date": "2022"
+   }
+  ],
+  "achievements": [
+   "Finalist, Example University Hackathon 2024",
+   "Solved 300+ DSA problems on coding platforms"
+  ],
+  "publications": [],
+  "extracurricular": [],
+  "sections_detected": [
+   "education",
+   "skills",
+   "projects",
+   "certifications",
+   "achievements"
+  ],
+  "warnings": [
+   "No professional experience or internship section found; none assumed."
+  ]
+ },
+ "is_user_edited": false,
+ "updated_at": "2026-11-22T15:37:53.670043"
+}

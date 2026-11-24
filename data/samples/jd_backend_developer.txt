@@ -1,0 +1,12 @@
+Python Backend Developer (Fresher / 0-1 years)
+About the role: We build REST services for logistics.
+Requirements:
+- Strong proficiency in Python and FastAPI or Django
+- Experience with PostgreSQL and SQL
+- Good understanding of REST APIs and JWT authentication
+- Bachelor's degree in Computer Science or related field
+- Strong communication and problem-solving skills
+Preferred:
+- Knowledge of Docker and AWS
+- Experience with CI/CD pipelines
+- Internship experience is a plus

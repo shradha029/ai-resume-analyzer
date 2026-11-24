@@ -1,0 +1,140 @@
+{
+ "recommendations": [
+  {
+   "category": "skill",
+   "priority": "high",
+   "title": "Learn JWT",
+   "action": "Learn token-based authentication. Add JWT login/logout and protected routes to a project.",
+   "reason": "Mandatory requirement 'JWT' was not found in your resume.",
+   "resources": [
+    {
+     "name": "Introduction to JWT",
+     "url": "https://jwt.io/introduction"
+    }
+   ]
+  },
+  {
+   "category": "skill",
+   "priority": "medium",
+   "title": "Bridge from Express.js, Flask to Django",
+   "action": "You already know Express.js, Flask. Learn Django and rebuild one small project with it to show direct experience.",
+   "reason": "'Django' is mandatory for this job; your resume shows only the related skill(s) Express.js, Flask.",
+   "resources": [
+    {
+     "name": "Django documentation",
+     "url": "https://docs.djangoproject.com/"
+    }
+   ]
+  },
+  {
+   "category": "skill",
+   "priority": "medium",
+   "title": "Bridge from Express.js, Flask to FastAPI",
+   "action": "You already know Express.js, Flask. Learn FastAPI and rebuild one small project with it to show direct experience.",
+   "reason": "'FastAPI' is mandatory for this job; your resume shows only the related skill(s) Express.js, Flask.",
+   "resources": [
+    {
+     "name": "FastAPI tutorial",
+     "url": "https://fastapi.tiangolo.com/tutorial/"
+    }
+   ]
+  },
+  {
+   "category": "skill",
+   "priority": "medium",
+   "title": "Bridge from MySQL, SQL to PostgreSQL",
+   "action": "You already know MySQL, SQL. Learn PostgreSQL and rebuild one small project with it to show direct experience.",
+   "reason": "'PostgreSQL' is mandatory for this job; your resume shows only the related skill(s) MySQL, SQL.",
+   "resources": [
+    {
+     "name": "PostgreSQL documentation",
+     "url": "https://www.postgresql.org/docs/"
+    }
+   ]
+  },
+  {
+   "category": "evidence",
+   "priority": "medium",
+   "title": "Show real use of SQL",
+   "action": "Add a project or experience bullet describing what you built with SQL. If you have not used it in a project yet, build a small one first - do not claim experience you do not have.",
+   "reason": "'SQL' is only listed in your Skills section, with no project or experience showing it.",
+   "resources": []
+  },
+  {
+   "category": "skill",
+   "priority": "medium",
+   "title": "Learn AWS",
+   "action": "Get practical cloud experience on AWS (free tier). Deploy one project to AWS (for example EC2 or Elastic Beanstalk) and document the steps in the README.",
+   "reason": "Preferred requirement 'AWS' was not found in your resume.",
+   "resources": [
+    {
+     "name": "AWS documentation",
+     "url": "https://docs.aws.amazon.com/"
+    }
+   ]
+  },
+  {
+   "category": "skill",
+   "priority": "medium",
+   "title": "Learn CI/CD",
+   "action": "Learn continuous integration basics. Add a GitHub Actions workflow that runs tests on every push.",
+   "reason": "Preferred requirement 'CI/CD' was not found in your resume.",
+   "resources": [
+    {
+     "name": "GitHub Actions documentation",
+     "url": "https://docs.github.com/actions"
+    }
+   ]
+  },
+  {
+   "category": "project",
+   "priority": "medium",
+   "title": "Build a project aligned with this job",
+   "action": "Create or rework a project that uses the job's key skills (especially Django, FastAPI, JWT, PostgreSQL), with 2-3 bullets explaining what you built.",
+   "reason": "Only 23% of the job's weighted skills are demonstrated in your projects.",
+   "resources": []
+  },
+  {
+   "category": "resume_quality",
+   "priority": "medium",
+   "title": "Resume: Skills shown in projects/experience (50%+ = full)",
+   "action": "Mention your key skills inside project/experience bullets, not only in the skills list.",
+   "reason": "Quality rule scored 2.09/3: 8 of 23 skills appear in a project, experience or certification (35%).",
+   "resources": []
+  },
+  {
+   "category": "evidence",
+   "priority": "low",
+   "title": "Show real use of Docker",
+   "action": "Add a project or experience bullet describing what you built with Docker. If you have not used it in a project yet, build a small one first - do not claim experience you do not have.",
+   "reason": "'Docker' is only listed in your Skills section, with no project or experience showing it.",
+   "resources": []
+  },
+  {
+   "category": "experience",
+   "priority": "low",
+   "title": "Build practical experience",
+   "action": "Apply for internships or open-source/freelance tasks, or build 1-2 projects that mimic real work (Git workflow, tests, deployment, README). Add them to your resume once completed.",
+   "reason": "An internship is a plus for this role; none is listed.",
+   "resources": []
+  },
+  {
+   "category": "certification",
+   "priority": "low",
+   "title": "Add a relevant certification",
+   "action": "Complete a recognised course or certification related to the job's core skills and list it with issuer and year. Examples related to this job: AWS Certified Cloud Practitioner.",
+   "reason": "1 relevant certification(s) found.",
+   "resources": []
+  },
+  {
+   "category": "resume_quality",
+   "priority": "low",
+   "title": "Resume: Word count 200-900",
+   "action": "Aim for roughly 300-700 words: enough detail, but concise.",
+   "reason": "Quality rule scored 1.5/3: 153 words.",
+   "resources": []
+  }
+ ],
+ "ai_summary": null,
+ "ai_status": "not_requested"
+}

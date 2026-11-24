@@ -1,0 +1,121 @@
+{
+ "id": 1,
+ "target_role": "Backend Developer",
+ "parsed": {
+  "target_role": "Backend Developer",
+  "skills": [
+   {
+    "name": "Django",
+    "category": "framework",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "FastAPI",
+    "category": "framework",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "JWT",
+    "category": "concept",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "PostgreSQL",
+    "category": "database",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "Python",
+    "category": "language",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "REST API",
+    "category": "concept",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "SQL",
+    "category": "language",
+    "level": "mandatory",
+    "weight": 1.0,
+    "custom": false
+   },
+   {
+    "name": "AWS",
+    "category": "cloud",
+    "level": "preferred",
+    "weight": 0.6,
+    "custom": false
+   },
+   {
+    "name": "CI/CD",
+    "category": "tool",
+    "level": "preferred",
+    "weight": 0.6,
+    "custom": false
+   },
+   {
+    "name": "Docker",
+    "category": "tool",
+    "level": "preferred",
+    "weight": 0.6,
+    "custom": false
+   }
+  ],
+  "experience": {
+   "min_years": 0,
+   "entry_level": true,
+   "internship_required": false,
+   "internship_preferred": true,
+   "project_experience_mentioned": false
+  },
+  "education": {
+   "required_level": 2,
+   "required_level_name": "bachelor",
+   "preferred_level": null,
+   "preferred_level_name": null,
+   "fields": [
+    "Computer Science"
+   ],
+   "statements": [
+    "Bachelor's degree in Computer Science or related field"
+   ]
+  },
+  "soft_skills": [
+   "Communication",
+   "Problem Solving"
+  ],
+  "domains": [
+   "logistics"
+  ],
+  "keywords": [
+   "python",
+   "rest",
+   "backend",
+   "developer",
+   "fresher",
+   "build",
+   "services",
+   "logistics.",
+   "proficiency",
+   "fastapi",
+   "django",
+   "postgresql"
+  ],
+  "warnings": []
+ },
+ "created_at": "2026-11-22T15:37:53.686544"
+}

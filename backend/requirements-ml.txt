@@ -1,0 +1,3 @@
+# Optional (large download, ~2 GB with PyTorch). Enables semantic matching with Sentence Transformers.
+# Install later with: pip install -r requirements-ml.txt
+sentence-transformers>=3.0.0
