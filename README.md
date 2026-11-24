@@ -64,6 +64,9 @@ Restart the backend. The dashboard shows the real metrics, and every analysed jo
 cd backend && pytest -q          # 90 tests
 cd frontend && npm test          # 41 tests
 ```
+## Machine Learning
+
+The project includes a text classifier that predicts a category from a document's text. The text is converted to numbers using TF-IDF (word and two-word-phrase weights that give more importance to rarer, more informative words). We compared three models on these features: Logistic Regression, Multinomial Naive Bayes and Linear SVM. We used 3-fold cross-validation on the training data and chose the model with the best macro-F1; Linear SVM won (cross-validated macro-F1 0.661, against 0.641 for Logistic Regression and 0.534 for Naive Bayes). The chosen model was then tested once on 485 held-out documents. It reached accuracy 0.680, precision 0.686, recall 0.669 and F1-score 0.663 (macro averages) across 22 categories; random guessing would give about 4.5%. Precision is the share of predicted labels that are correct, recall is the share of real members of a category that were found, and F1 is the balance of the two. The model was trained on the Kaggle Resume Dataset (2,425 resumes), so the category it shows for a job description is indicative only.
 
 ## Documentation
 `docs/architecture.md`, `docs/database_schema.md`, `docs/api_documentation.md`, `docs/ml_methodology.md`, `docs/RESUME_BULLETS.md`.
